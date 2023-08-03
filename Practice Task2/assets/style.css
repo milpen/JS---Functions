@@ -1,0 +1,30 @@
+
+h1 {
+    text-align: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.cat {
+    width: 20%;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.btn :hover {
+    cursor: pointer;
+    background-color: beige;
+}
+.btn1,
+.btn2 {
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 25%;
+    background-color:gray;
+}
