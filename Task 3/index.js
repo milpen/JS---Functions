@@ -1,6 +1,6 @@
-let changeImage=document.getElementById("cat");
-let buttonPrevious=document.getElementById("btn1");
-let buttonNext=document.getElementById("btn2");
+const changeImage=document.getElementById("cat");
+const buttonPrevious=document.getElementById("btn1");
+const buttonNext=document.getElementById("btn2");
 
 function getPrevious () {
     changeImage.src="./assets/img/Cat1.jpg";
