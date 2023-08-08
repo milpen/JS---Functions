@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+.gallery,
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+#image2 {
+    margin-left: 20px;
+}
+
+.image {
+    width: 250px;
+    height: 150px;
+}
+
+#btn1 {
+    margin-top: 5px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+#btn1:hover {
+    background: #1d49aa;
+}
+
+.hidden {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#text {
+    font-weight: bold;
+    font-size: 18px;
+}
